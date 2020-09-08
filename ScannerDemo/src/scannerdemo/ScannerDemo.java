@@ -19,16 +19,25 @@ public class ScannerDemo {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter your name: ");
-        String name = scan.nextLine();
-        System.out.println("You entered: "+name);
+
         System.out.println("Enter your age: ");
         int age = scan.nextInt();
-        System.out.println("You entered: "+age);
+        System.out.println("You entered: " + age);
+        
+        //skip a line
+        scan.nextLine();
+        
+        System.out.println("Enter your name: ");        
+        String name = scan.nextLine();
+        System.out.println("You entered: "+ name);
+        
         System.out.println("Enter your salary: ");
         double salary = scan.nextDouble();
-        System.out.println("You entered: "+ salary);
+        System.out.println("You entered: " + salary);
         
+
+        
+
     }
-    
+
 }
