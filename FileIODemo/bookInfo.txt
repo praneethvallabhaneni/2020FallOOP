@@ -1,0 +1,8 @@
+Book{isbn=12-432, cost=45.0, title=OOP}
+Book{isbn=43223-0987, cost=67.0, title=WebApps}
+Book{isbn=986-678, cost=89.0, title=Database Systems}
+Book{isbn=678-345, cost=12.0, title=ADB}
+Book{isbn=1232-987, cost=65.0, title=Project Management}
+Book{isbn=12343-87654, cost=98.0, title=Machine Learning}
+Book{isbn=4533-0987, cost=32.0, title=Data Visualization}
+I am not printing books
