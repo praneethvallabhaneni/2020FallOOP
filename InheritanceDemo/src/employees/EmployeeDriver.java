@@ -22,6 +22,13 @@ public class EmployeeDriver {
         HourlyEmployee hrEmp1 = new HourlyEmployee("Byron", "Williams", "123-432-3444", 12, 10);
         System.out.println(hrEmp1.toString());
         
+        //emp1 = hrEmp1;//legal statement //polymorphic sub
+        //hrEmp1 = emp1;//illegal statement
+        
+        Employee emp2 = new HourlyEmployee("H", "P ", "13", 12, 5);
+        System.out.println(emp2.toString());
+        
+        
         
     }
     
